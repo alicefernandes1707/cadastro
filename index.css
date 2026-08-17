@@ -1,0 +1,33 @@
+.container{
+    background-color: rgba(60, 192, 253, 0.712);
+    width: 500px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column; 
+}
+.color01{
+    color: red;
+    font-size: 25 px;
+
+}
+.color02{
+    color: rgb(255, 94, 0);
+    font-size: 25 px;
+
+}
+.color03{
+    color: rgb(251, 255, 0);
+    font-size: 25 px;
+
+}
+.color04{
+    color: rgb(30, 255, 0);
+    font-size: 25 px;
+
+}
