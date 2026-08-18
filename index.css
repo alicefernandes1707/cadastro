@@ -1,6 +1,26 @@
-.container{
-    background-color: rgba(60, 192, 253, 0.712);
-    width: 500px;
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+header{
+    color:rgb(60, 192, 253);
+    text-align: center;
+}
+footer{
+    background-color: rgba(255, 122, 162, 0.712);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+Body{
+    background-image: url(img/transferir.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.formulario{
+    background-color: rgba(240, 124, 211, 0.712);
+    width: 700px;
     margin: 100px auto;
     padding: 30px;
     border-radius: 10px;
@@ -10,6 +30,19 @@
     display:flex;
     justify-content: center;
     flex-direction: column; 
+}
+.resultado{
+   background-color: rgba(255, 122, 162, 0.712);
+    width: 700px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    color: rgb(60, 24, 119);
+    font-size: 25px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;  
 }
 .color01{
     color: red;
